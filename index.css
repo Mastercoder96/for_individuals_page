@@ -1,0 +1,214 @@
+
+@font-face {
+    font-family: 'Sofiasans';
+    src: url(/Assets/Fonts/sofiapro-light.otf);
+}
+
+
+@media (max-width: 300px) {
+    .content_box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card_container {
+        flex: 1 1 40%;
+    }
+    
+}
+
+body {
+    width: 100%;
+    height: 840px;
+    background-color: rgba(46, 196, 182, 0.04);
+    
+}
+
+.content_box {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+
+.center_info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logo_img {
+    box-sizing: border-box;
+    width: 77.33px;
+    height: 80px;
+    margin-top: 205px;
+    margin-left: 140px;
+}
+
+.site_info {
+    color: #000B0A;
+    font-family: Sofiasans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+    box-sizing: border-box;
+    margin-left: 140px;
+}
+
+
+.site_caption {
+    color:#737373;
+    font-family: Sofiasans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    box-sizing: border-box;
+    margin-left: 140px;
+    width: 600px;
+    height: 75px;
+}
+
+
+.card_container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-self: right;
+    max-width: 980px;
+    height: 679px;
+    border-radius: 6px;
+    background: #FFF;
+    margin-top: 81px;
+    margin-bottom: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 40px;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10) ;
+   
+}
+
+#text {
+    color:#011C34;
+    font-family: Sofiasans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1px;
+}
+
+
+input::placeholder {
+    color: #737373;
+    font-family: Sofiasans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    padding: 10px;
+}
+
+
+
+.first_line, .second_line, .third_line {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.first, .last, .gender, .dob, .weight, .height, .activity, .password {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.first_name_box, .last_name_box, .gender_box, .dob_box, .weight_box, .height_box {
+    width: 238px;
+    height: 48px;
+    border: 1px solid #F0F0F0;
+}
+
+
+.dob_box {
+    background-image: url(/Assets/u_a_calendar-alt.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: 200px;
+}
+
+
+.password_box {
+    background-image: url(/Assets/show.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 470px;
+}
+
+
+
+
+.activity_box, .password_box {
+    width: 500px;
+    height: 48px;
+    border: 1px solid #F0F0F0;
+
+}
+
+.register_button {
+    display: flex;
+    width: 500px;
+    height: 48px;
+    background-color: #2EC4B6;
+    filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0, 0.10));
+    padding: 10px;
+    justify-content: center;
+}
+
+.register {
+    color: #FFF;
+    text-align: center;
+    font-family: Sofiasans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    padding: 15px;
+}
+
+
+.terms {
+    color: #000;
+    font-family: Sofiasans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: 30px;
+}
+
+
+
+.underline-text {
+    color:#2EC4B6;
+    font-family: Sofiasans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    text-decoration-line: underline;
+}
+
+
+
+
+
+
+
+
